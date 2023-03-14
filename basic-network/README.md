@@ -1,17 +1,17 @@
 # This is basic hyperledger fabric network with below topology:
-NETWORK
-|_Organizations
-|___Orderer Organizations
-|______Orderers
-|_________orderer.example.com
-|______Users
-|_________Admin@example.com
-|___Peer Organizations
-|______Peers
-|_________peer0.org1.example.com
-|______Users
-|_________Admin@org1.example.com
-|_________User1@org1.example.com
+* NETWORK
+   * Organizations
+      * Orderer Organizations
+         * Orderers
+            * orderer.example.com
+         * Users
+            * Admin@example.com
+      * Peer Organizations
+         * Peers
+            * peer0.org1.example.com
+         * Users
+            * Admin@org1.example.com
+            * User1@org1.example.com
 
 ## Steps to run the network:
 * Make sure docker images are pulled from docker hub.
